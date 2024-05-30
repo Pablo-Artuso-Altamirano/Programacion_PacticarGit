@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 100px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(42, 235, 24, 0.473);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #000000;
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus {
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.507);
+    outline: none;
+}
+
+.localidad p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+.lenguajes {
+    margin-top: 35px;
+}
+
+.lenguajes label {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.lenguajes label:hover {
+    font-size: 19px;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+
+
+
+
+
+
+
+
+input[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bolder;
+    border-radius: 30px;
+    border: none;
+    margin-top: 40px;
+    width: 70px;
+    height: 30px;
+   
+}
+
+input[type="button"]:hover {
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="button"]:active {
+    transform: scale(0.85);
+}
